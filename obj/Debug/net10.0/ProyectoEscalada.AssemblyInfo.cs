@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoEscalada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d0bfc381222b3ea8c45d8b4db7b4433aabcf640")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46dfc452d6d258142960a05338e5627616fe1618")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoEscalada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoEscalada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

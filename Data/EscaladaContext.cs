@@ -12,6 +12,7 @@ namespace ProyectoEscalada.Data
         }
 
         // DbSet representa la tabla en la base de datos
+        public DbSet<UsuarioModel> Usuarios { get; set; }
         public DbSet<RutaEscaladaModel> Rutas { get; set; }
     }
 

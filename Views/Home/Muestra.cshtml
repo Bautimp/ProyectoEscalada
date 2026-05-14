@@ -1,8 +1,41 @@
-﻿@{
-    ViewData["Title"] = "Muestra de modelos";
+﻿@model IEnumerable<ProyectoEscalada.Models.UsuarioModel>
+
+@{
+    ViewData["Title"] = "Listado de Usuarios";
 }
 
-<div class="text-center">
-    <h1 class="display-4">En esta pestaña podrá ver la información de los modelos</h1>
-    <h3>Este sitio está siendo creado por <a href="https://github.com/Bautimp">Bautista Montes</a>.</h3>
+<div class="container mt-4">
+    <h1>@ViewData["Title"]</h1>
+    <hr />
+
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Fecha de Registro</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var usuario in Model)
+                {
+                    <tr>
+                        <td>@usuario.Id</td>
+                        <td>@usuario.Nombre</td>
+                        <td>@usuario.Email</td>
+                        <td>@usuario.FechaRegistro.ToString("dd/MM/yyyy HH:mm")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center">No hay usuarios registrados.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
