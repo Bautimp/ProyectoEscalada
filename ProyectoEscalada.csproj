@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\RutaEscaladaModel.cs" />
     <Compile Remove="Models\UsuarioModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Models\RutaEscaladaModel.cs" />
     <None Include="Models\UsuarioModel.cs" />
   </ItemGroup>
 

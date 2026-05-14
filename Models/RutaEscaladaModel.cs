@@ -1,5 +1,5 @@
 using System;
-namespace MiProyectoMvc.Models
+namespace ProyectoEscalada.Models;
 {
     public class RutaEscaladaModel{
         public int Id { get; set; } // Clave primaria automática
