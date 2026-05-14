@@ -1,5 +1,5 @@
-// Data/EscaladaContext.cs
 using Microsoft.EntityFrameworkCore;
+
 using ProyectoEscalada.Models;
 
 namespace ProyectoEscalada.Data
@@ -14,4 +14,5 @@ namespace ProyectoEscalada.Data
         // DbSet representa la tabla en la base de datos
         public DbSet<RutaEscaladaModel> Rutas { get; set; }
     }
+
 }

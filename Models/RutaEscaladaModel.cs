@@ -1,11 +1,12 @@
 using System;
-namespace ProyectoEscalada.Models;
-{
-    public class RutaEscaladaModel{
-        public int Id { get; set; } // Clave primaria automática
+
+namespace ProyectoEscalada.Models{
+    public class RutaEscaladaModel
+    {
+        public int Id { get; set; } 
         public string Nombre { get; set; } = string.Empty;
-        public string GradoDificultad { get; set; } = string.Empty; // Ej: "V4", "6b+"
-        public string TipoAgarre { get; set; } = string.Empty; // Ej: "Regletas", "Romos"
+        public string GradoDificultad { get; set; } = string.Empty; 
+        public string TipoAgarre { get; set; } = string.Empty; 
         public bool EsBoulder { get; set; }
     }
 }
