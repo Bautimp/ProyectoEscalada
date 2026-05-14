@@ -16,6 +16,16 @@ public class HomeController : Controller
         return View();
     }
 
+    //Método que lleva a la vista muestra
+    public IActionResult Muestra(){
+        
+
+
+
+
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

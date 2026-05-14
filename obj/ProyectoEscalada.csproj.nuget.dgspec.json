@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {}
+    "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {
+    "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
+        "projectUniqueName": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
         "projectName": "ProyectoEscalada",
-        "projectPath": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
-        "packagesPath": "C:\\Users\\Bauti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\obj\\",
+        "projectPath": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
+        "packagesPath": "C:\\Users\\Bautista\\.nuget\\packages\\",
+        "outputPath": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bauti\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bautista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,11 +39,24 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
