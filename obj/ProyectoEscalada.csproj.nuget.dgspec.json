@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {}
+    "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {}
   },
   "projects": {
-    "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {
+    "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
+        "projectUniqueName": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
         "projectName": "ProyectoEscalada",
-        "projectPath": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
-        "packagesPath": "C:\\Users\\Bautista\\.nuget\\packages\\",
-        "outputPath": "B:\\Users\\Bautista\\Desktop\\CODE\\.net\\ProyectoEscalada\\obj\\",
+        "projectPath": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\ProyectoEscalada.csproj",
+        "packagesPath": "C:\\Users\\Bauti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bauti\\Desktop\\CODE\\.net\\ProyectoEscalada\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bautista\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bauti\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,11 +38,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
@@ -76,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
