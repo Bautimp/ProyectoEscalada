@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ProyectoEscalada.Models.UsuarioModel>
+
+@{
+    ViewData["Title"] = "Listado de Usuarios";
+}
+
+<div class="container mt-4">
+    <h1>@ViewData["Title"]</h1>
+    <hr />
+
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Fecha de Registro</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var usuario in Model)
+                {
+                    <tr>
+                        <td>@usuario.Id</td>
+                        <td>@usuario.Nombre</td>
+                        <td>@usuario.Email</td>
+                        <td>@usuario.FechaRegistro.ToString("dd/MM/yyyy HH:mm")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center">No hay usuarios registrados.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
