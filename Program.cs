@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using ProyectoEscalada.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Conexión a la base de datos
+// Agregar MVC al contenedor
+builder.Services.AddControllersWithViews();
+
+// --- AQUÍ REGISTRAS LA BASE DE DATOS ---
+builder.Services.AddDbContext<EscaladaContext>(opciones =>
+    opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSQL"))
+);
 
 var app = builder.Build();
 

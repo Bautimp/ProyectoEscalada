@@ -1,9 +1,7 @@
 using System;
-
 namespace ProyectoEscalada.Models
 {
-    public class UsuarioModel
-    {
+    public class UsuarioModel{
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Email { get; set; }

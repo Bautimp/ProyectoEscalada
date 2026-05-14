@@ -1,0 +1,11 @@
+using System;
+namespace MiProyectoMvc.Models
+{
+    public class RutaEscaladaModel{
+        public int Id { get; set; } // Clave primaria automática
+        public string Nombre { get; set; } = string.Empty;
+        public string GradoDificultad { get; set; } = string.Empty; // Ej: "V4", "6b+"
+        public string TipoAgarre { get; set; } = string.Empty; // Ej: "Regletas", "Romos"
+        public bool EsBoulder { get; set; }
+    }
+}
